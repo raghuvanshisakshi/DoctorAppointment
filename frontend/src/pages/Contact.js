@@ -13,12 +13,12 @@ const ContactUs = () => {
         <div className="contact-info">
           <div className="office-details">
             <h3>OUR OFFICE</h3>
-            <p>00000 Willms Station<br />Suite 000, Washington, USA</p>
+            <p>KIET Group Of Institutions<br />201206, Delhi NCR</p>
             <p>Tel: (000) 000-0000</p>
-            <p>Email: greatstackdev@gmail.com</p>
+            <p>Email: doc.ai@gmail.com</p>
           </div>
           <div className="career-details">
-            <h3>CAREERS AT PRESCRIPTO</h3>
+            <h3>CAREERS AT DOC.AI</h3>
             <p>Learn more about our teams and job openings.</p>
             <button className="explore-btn">Explore Jobs</button>
           </div>

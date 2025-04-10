@@ -9,7 +9,7 @@ const Footer = () => {
         <div className={styles.section}>
           <div className={styles.logo}>
             {/* <FaHome className={styles.icon} /> */}
-            <span>Prescripto</span>
+            <span>Doc.AI</span>
           </div>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
