@@ -32,11 +32,11 @@ const Footer = () => {
         <div className={styles.section}>
           <h3>GET IN TOUCH</h3>
           <p>+0-000-000-000</p>
-          <p>greatstackdev@gmail.com</p>
+          <p>DocAi@gmail.com</p>
         </div>
       </div>
       <div className={styles.bottomText}>
-        Copyright 2024 © Greatstack.dev - All Right Reserved.
+        Copyright 2024 © DocAi.dev - All Right Reserved.
       </div>
     </footer>
   );

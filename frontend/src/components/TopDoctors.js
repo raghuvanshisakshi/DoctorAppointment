@@ -26,9 +26,9 @@ const TopDoctors = () => {
                 
         ))}
       </div>
-      <button onClick = {()=>{navigate('/doctors'); scrollTo(0,0)}} className = 'bg-blue-50 text-gray-500 px-12 py-3 rounded-full mt-10'>more</button>
+      <button onClick = {()=>{navigate('/doctors'); window.scrollTo(0,0)}} className = 'bg-blue-50 text-gray-500 px-12 py-3 rounded-full mt-10'>more</button>
     </div>
   )
 }
 
-export default TopDoctors
+export default TopDoctors;

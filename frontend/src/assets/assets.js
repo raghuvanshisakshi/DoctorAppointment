@@ -12,7 +12,7 @@ import doctor11 from './doctor11.png'
 import doctor12 from './doctor12.png'
 import doctor15 from './doctor15.png'
 import logo1 from './logo1.jpg';
-import Cardiologist from './cardiologist.jpg'
+import Gastroenterologist from './gastrologist.jpg'
 import Darmatologist from './Darmatologist.jpg'
 import Gynecologist from './gynecologist.jpg'
 import Neurologist from './neurologist.jpg'
@@ -49,7 +49,7 @@ export const assets = {
 }
 export const specialityData =[
     {
-        speciality: 'General-Physician',
+        speciality: 'General Physician',
         image: Physician
     },
     {
@@ -57,12 +57,12 @@ export const specialityData =[
         image:  Gynecologist
     },
     {
-        speciality: 'Darmatologist',
+        speciality: 'Dermatologist',
         image: Darmatologist
     },
     {
-        speciality: 'Cardiologist',
-        image: Cardiologist
+        speciality: 'Gastroenterologist',
+        image: Gastroenterologist
     },
     {
         speciality: 'Neurologist' ,
@@ -77,10 +77,10 @@ export const specialityData =[
 export const doctors = [
 
 {
-    id: 'doctor1',
-    name: 'Dr Sakshi Raghuvanshi',
+    _id: 'doc1',
+    name: 'Dr. Naresh Trehan ',
     image: doctor1,
-    specilaity: 'Physician',
+    speciality: 'General Physician',
     degree:'MBBS',
     experience: '4 Year',
     about: 'Lorem ipsum dolor sit amet',
@@ -91,10 +91,10 @@ export const doctors = [
 }
 },
 {
-    id: 'doctor2',
-    name: 'Dr Sakshi Raghuvanshi',
+    _id: 'doc2',
+    name: 'Dr. Randeep Guleria',
     image: doctor2,
-    specilaity: 'Physician',
+    speciality: 'Gynecologist',
     degree:'MBBS',
     experience: '4 Year',
     about: 'Lorem ipsum dolor sit amet',
@@ -105,10 +105,10 @@ export const doctors = [
 }
 },
 {
-    id: 'doctor3',
-    name: 'Dr Sakshi Raghuvanshi',
+    _id: 'doc3',
+    name: 'Dr. Gagandeep Kang',
     image: doctor3,
-    specilaity: 'Physician',
+    speciality: 'Neurologist',
     degree:'MBBS',
     experience: '4 Year',
     about: 'Lorem ipsum dolor sit amet',
@@ -119,10 +119,10 @@ export const doctors = [
 }
 },
 {
-    id: 'doctor4',
-    name: 'Dr Sakshi Raghuvanshi',
+    _id: 'doc4',
+    name: 'Dr. Ashok Seth',
     image: doctor4,
-    specilaity: 'Physician',
+    speciality: 'Physician',
     degree:'MBBS',
     experience: '4 Year',
     about: 'Lorem ipsum dolor sit amet',
@@ -133,10 +133,10 @@ export const doctors = [
 }
 },
 {
-    id: 'doctor5',
-    name: 'Dr Sakshi Raghuvanshi',
+    _id: 'doc5',
+    name: ' Dr. Manisha Hariawala',
     image: doctor5,
-    specilaity: 'Physician',
+    speciality: 'Gynecologist',
     degree:'MBBS',
     experience: '4 Year',
     about: 'Lorem ipsum dolor sit amet',
@@ -147,10 +147,10 @@ export const doctors = [
 }
 },
 {
-    id: 'doctor6',
-    name: 'Dr Sakshi Raghuvanshi',
+    _id: 'doc6',
+    name: ' Dr. K. K. Aggarwal',
     image: doctor6,
-    specilaity: 'Physician',
+    speciality: 'Dermatologist',
     degree:'MBBS',
     experience: '4 Year',
     about: 'Lorem ipsum dolor sit amet',
@@ -161,10 +161,10 @@ export const doctors = [
 }
 },
 {
-    id: 'doctor7',
-    name: 'Dr Sakshi Raghuvanshi',
+    _id: 'doc7',
+    name: '  Dr. P. Raghu Ram',
     image: doctor7,
-    specilaity: 'Physician',
+    speciality: 'Cardiologist',
     degree:'MBBS',
     experience: '4 Year',
     about: 'Lorem ipsum dolor sit amet',
@@ -175,10 +175,10 @@ export const doctors = [
 }
 },
 {
-    id: 'doctor8',
-    name: 'Dr Sakshi Raghuvanshi',
+    _id: 'doc8',
+    name: 'Dr. Shashi Tharoor',
     image: doctor8,
-    specilaity: 'Physician',
+    speciality: 'Pedestrician',
     degree:'MBBS',
     experience: '4 Year',
     about: 'Lorem ipsum dolor sit amet',
@@ -189,10 +189,10 @@ export const doctors = [
 }
 },
 {
-    id: 'doctor9',
-    name: 'Dr Sakshi Raghuvanshi',
+    _id: 'doc9',
+    name: ' Dr. Ajay Kumar',
     image: doctor9,
-    specilaity: 'Physician',
+    speciality: 'Pedestrician',
     degree:'MBBS',
     experience: '4 Year',
     about: 'Lorem ipsum dolor sit amet',
@@ -203,10 +203,10 @@ export const doctors = [
 }
 },
 {
-    id: 'doctor10',
-    name: 'Dr Sakshi Raghuvanshi',
+    _id: 'doc10',
+    name: 'Dr. Treasa Joseph',
     image: doctor10,
-    specilaity: 'Physician',
+    speciality: 'Cardiologist',
     degree:'MBBS',
     experience: '4 Year',
     about: 'Lorem ipsum dolor sit amet',
@@ -217,10 +217,10 @@ export const doctors = [
 }
 },
 {
-    id: 'doctor11',
-    name: 'Dr Sakshi Raghuvanshi',
+    _id: 'doc11',
+    name: ' Dr. Mahesh Sharma',
     image: doctor11,
-    specilaity: 'Physician',
+    speciality: ' General Physician',
     degree:'MBBS',
     experience: '4 Year',
     about: 'Lorem ipsum dolor sit amet',
@@ -231,10 +231,10 @@ export const doctors = [
 }
 },
 {
-    id: 'doctor12',
-    name: 'Dr Sakshi Raghuvanshi',
+    _id: 'doc12',
+    name: 'Dr. Rajendra Prasad',
     image: doctor12,
-    specilaity: 'Physician',
+    speciality: 'Pedestrician',
     degree:'MBBS',
     experience: '4 Year',
     about: 'Lorem ipsum dolor sit amet',
@@ -245,10 +245,10 @@ export const doctors = [
 }
 },
 {
-    id: 'doctor15',
-    name: 'Dr Sakshi Raghuvanshi',
+    _id: 'doc15',
+    name: 'Dr. S. Rajeshwari',
     image: doctor15,
-    specilaity: 'Physician',
+    speciality: 'Gynecologist',
     degree:'MBBS',
     experience: '4 Year',
     about: 'Lorem ipsum dolor sit amet',
